@@ -184,11 +184,49 @@ print('Example:');
   print(gfg); 
 
 }
+------------------------------------------------------------------
+void main(){
+print('Question:07');
+ var i = 7;
+  for(var i=1;i<=10;i++){
+    print("7 X ${i} = ${7*i}");
+  }
+ 
+}
+-------------------------------------------------------------------------
+void main(){
+print('Question:08');
+var user = "hammadahmed@gmail.com";
+  var pass ="hammad123";
+  var correctpass ="hammad123";
+  
+  if(pass == correctpass){
+    print("correct password");
+  }
+  else{
+    print("wrong password");
+  }
+ 
+}
+-----------------------------------------------------------------
+void main(){
+print('Question:09');  
+var name = ["Hammad", "Areeb", "Rehman"];
+   var score = [453, 377, 463];
+  
+  var total = 500;
+  for(var i=0;i<name.length;i++){
+   print("${name[i]} = ${score[i]*100/total}"); 
+  }
+}
+
+------------------------------------------------------------------- 
+
 ------------------------------------------------------------------- 
 void main(){
  print('Question:10');
   print('Legeal Variable:' );
-  print('The rules and conventions for naming your variables can be summarized as follows: Variable names are case-sensitive. A variables name can be any legal identifier — an unlimited-length sequence of Unicode letters and digits, beginning with a letter, the dollar sign or the underscore character " _ ".');
+  print('The rules and conventions for naming your variables can be summarized as follows: Variable names are case-sensitive. A variables name can be any legal identifier â€” an unlimited-length sequence of Unicode letters and digits, beginning with a letter, the dollar sign or the underscore character " _ ".');
   print('------------------------------------');
   print('Illegeal Variable:' );
   print('A variable name cannot start with a number. A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ ) Variable names are case-sensitive (age, Age and AGE are three different variables)');
